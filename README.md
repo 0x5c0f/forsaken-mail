@@ -1,3 +1,25 @@
+# Forsaken-Mail
+> https://github.com/denghongcai/forsaken-mail 
+
+- 自托管的一次性邮件服务。  
+- 相对于原项目翻译了下自述文件、改了些前端以适应个人需求  
+
+### DNS 解析
+- `_@mx.example.com`  
+
+|记录类型|主机记录|线路|记录值|MX优先级|TTL|
+|-|-|-|-|-|-|
+|`A`|`mx`|默认|`<server_ip>`|`-`|`600`|
+|`MX`|`mx`|默认|`mx.example.com`|`10`|`600`|
+
+
+### 访问
+```
+http://mx.example.com
+```
+
+------ 
+
 Forsaken-Mail
 ==============
 A self-hosted disposable mail service.

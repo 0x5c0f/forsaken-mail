@@ -4,6 +4,6 @@
     "port": 25,
     "disableWebhook": true
   },
-  "host": "disposable.dhc-app.com",
-  "keywordBlackList": ["admin", "postmaster", "system", "webmaster", "administrator", "hostmaster", "service", "server", "root"]
+  "host": "mx.51ac.cc",
+  "keywordBlackList": ["mail", "admin", "postmaster", "system", "webmaster", "administrator", "hostmaster", "service", "server", "root"]
 }
